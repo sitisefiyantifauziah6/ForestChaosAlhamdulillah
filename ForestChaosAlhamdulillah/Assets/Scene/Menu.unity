@@ -474,8 +474,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
+      - m_Target: {fileID: 2125027182}
+        m_TargetAssemblyTypeName: Launcher, Assembly-CSharp
         m_MethodName: LeaveRoom
         m_Mode: 1
         m_Arguments:
@@ -558,10 +558,10 @@ RectTransform:
   - {fileID: 43393254}
   m_Father: {fileID: 1545945010}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 70}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 300, y: -115}
+  m_SizeDelta: {x: 600, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &477066598
 MonoBehaviour:
@@ -607,16 +607,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
+      - m_Target: {fileID: 2125027184}
+        m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
         m_MethodName: OpenMenu
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 645285602}
-          m_ObjectArgumentAssemblyTypeName: Menu, Assembly-CSharp
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: CreateRoomMenu (Menu)
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &477066599
@@ -944,8 +944,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
+      - m_Target: {fileID: 2125027182}
+        m_TargetAssemblyTypeName: Launcher, Assembly-CSharp
         m_MethodName: CreateRoom
         m_Mode: 1
         m_Arguments:
@@ -1010,7 +1010,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &520157951
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1254,10 +1254,10 @@ RectTransform:
   - {fileID: 1271781690}
   m_Father: {fileID: 1545945010}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 70}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 300, y: -275}
+  m_SizeDelta: {x: 600, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &572175657
 MonoBehaviour:
@@ -1339,7 +1339,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 2125027183}
         m_TargetAssemblyTypeName: PlayerNameManager, Assembly-CSharp
         m_MethodName: OnUsernameInputValueChanged
         m_Mode: 1
@@ -1624,8 +1624,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
+      - m_Target: {fileID: 2125027184}
+        m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
         m_MethodName: OpenMenu
         m_Mode: 2
         m_Arguments:
@@ -1690,7 +1690,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &645285601
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2159,8 +2159,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
+      - m_Target: {fileID: 2125027182}
+        m_TargetAssemblyTypeName: Launcher, Assembly-CSharp
         m_MethodName: StartGame
         m_Mode: 1
         m_Arguments:
@@ -3078,10 +3078,10 @@ RectTransform:
   - {fileID: 1627987272}
   m_Father: {fileID: 1545945010}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 70}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 300, y: -195}
+  m_SizeDelta: {x: 600, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1131524896
 MonoBehaviour:
@@ -3519,10 +3519,10 @@ RectTransform:
   - {fileID: 1238932396}
   m_Father: {fileID: 1545945010}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 70}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 300, y: -35}
+  m_SizeDelta: {x: 600, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1324654640
 MonoBehaviour:
@@ -3568,16 +3568,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
+      - m_Target: {fileID: 2125027184}
+        m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
         m_MethodName: OpenMenu
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 1917619824}
-          m_ObjectArgumentAssemblyTypeName: Menu, Assembly-CSharp
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: FindRoomMenu(Menu)
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1324654641
@@ -4169,16 +4169,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
+      - m_Target: {fileID: 2125027184}
+        m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
         m_MethodName: OpenMenu
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 520157952}
-          m_ObjectArgumentAssemblyTypeName: Menu, Assembly-CSharp
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: TitleMenu (Menu)
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1839944162
@@ -4369,7 +4369,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1917619823
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4837,9 +4837,9 @@ MonoBehaviour:
   errorText: {fileID: 1414290306}
   roomNameText: {fileID: 738420261}
   roomListContent: {fileID: 513197373}
-  roomListItemPrefab: {fileID: 0}
+  roomListItemPrefab: {fileID: 1878336002063414184, guid: 08b04b40c59702447bd34b1781967e4e, type: 3}
   playerListContent: {fileID: 477289445}
-  PlayerListItemPrefab: {fileID: 0}
+  PlayerListItemPrefab: {fileID: 1878336002063414184, guid: 08b04b40c59702447bd34b1781967e4e, type: 3}
   startGameButton: {fileID: 740400222}
 --- !u!114 &2125027183
 MonoBehaviour:
